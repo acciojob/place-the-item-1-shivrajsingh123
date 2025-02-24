@@ -1,29 +1,8 @@
-
-/* Your CSS Code here. */
-.holder{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
-}
-	
-	
-
-
-
-
-.box{
-	width:20px;
-	height:20px;
-	background-color:red;
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items move to the next row if space runs out */
+    justify-content: space-between; /* Ensures space between items */
+    align-items: center; /* Aligns items properly */
+    padding: 10px; /* Optional padding */
 }
 
-.box1{
-	width:20px;
-	height:20px;
-	background-color:blue;
-}
-.box2{
-	width:20px;
-	height:20px;
-	background-color:yellow;
-}
